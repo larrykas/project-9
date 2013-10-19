@@ -6,7 +6,7 @@
 
 x = 3
 x = x + 5
-The vaue of x is 8
+# The vaue of x is 8
 
 # 2. What is the value of x?
 
@@ -48,7 +48,7 @@ puts salut.gsub(" ","")
 
 # 9. Remove all “whitespace” from the END of “Hello World    “
 
-“Hello World    “.gsub(/\s+/, " ").strip
+"Hello World    ".gsub(/\s+/, " ").strip
 
 # 10. Remove any \r\n from “Hello World\r\n”
 
@@ -68,5 +68,5 @@ puts salut.gsub(" ","")
 
 # 14. Count the number of characters in the String “Hello World”
 
-“Hello World”.length
+"Hello World".length
 
