@@ -48,7 +48,8 @@ puts salut.gsub(" ","")
 
 # 9. Remove all “whitespace” from the END of “Hello World    “
 
-"Hello World    ".gsub(/\s+/, " ").strip
+"Hello World    ".rstrip
+
 
 # 10. Remove any \r\n from “Hello World\r\n”
 
